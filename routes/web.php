@@ -70,6 +70,16 @@ Route::group(['prefix' => 'admin', 'middleware' => [\App\Http\Middleware\CheckAd
     Route::get('auction/gallery/delete/{id}',"auctionController@auction_gallery_delete");
     Route::post('auction/update',"auctionController@auction_update");
 
+ //blog
+    Route::get('blogs',"BlogController@blogs");
+    Route::post('blog/add',"BlogController@blog_add");
+    Route::get('blog/update/{id}',"BlogController@blog_update_view");
+    Route::get('blog/delete/{id}',"BlogController@blog_delete");
+    Route::get('blog/category/{id}',"BlogController@blog_category");
+    Route::post('blog/category/add',"BlogController@blog_category_add");
+    Route::get('blog/category/delete/{id}',"BlogController@blog_category_delete");
+    Route::post('blog/update',"BlogController@blog_update");
+
 //Products
     /*nikmehr*/Route::get('product_category','ProductCategoryController@product_categories');
     /*nikmehr*/Route::post('product_category/add',"ProductCategoryController@product_categories_add");
