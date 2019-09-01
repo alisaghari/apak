@@ -75,7 +75,7 @@ Route::group(['prefix' => 'admin', 'middleware' => [\App\Http\Middleware\CheckAd
     Route::post('blog/add',"BlogController@blog_add");
     Route::get('blog/update/{id}',"BlogController@blog_update_view");
     Route::get('blog/delete/{id}',"BlogController@blog_delete");
-    Route::get('blog/category/{id}',"BlogController@blog_category");
+    Route::get('blog/category',"BlogController@blog_category");
     Route::post('blog/category/add',"BlogController@blog_category_add");
     Route::get('blog/category/delete/{id}',"BlogController@blog_category_delete");
     Route::post('blog/update',"BlogController@blog_update");

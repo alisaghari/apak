@@ -512,22 +512,11 @@
                     <div class="arrow_box">
                         <li data-menu=""><a class="dropdown-item" href="{{url("admin/slider")}}" data-toggle="dropdown">مدیریت اسلایدر</a>
                         </li>
-                        <li class="dropdown dropdown-submenu" data-menu="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">داده های جدول</a>
-                            <ul class="dropdown-menu">
-                                <div class="arrow_box">
-                                    <li data-menu=""><a class="dropdown-item" href="dt-basic-initialization.html" data-toggle="dropdown">شروع اولیه</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="dt-styling.html" data-toggle="dropdown">استایلینگ</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="dt-data-sources.html" data-toggle="dropdown">منابع داده</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="dt-advanced-initialization.html" data-toggle="dropdown">آغازگر پیشرفته</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="dt-api.html" data-toggle="dropdown">API</a>
-                                    </li>
-                                </div>
-                            </ul>
+                        <li data-menu=""><a class="dropdown-item" href="{{url("admin/blog/category")}}" data-toggle="dropdown">تعریف دسته بندی مطالب</a>
                         </li>
+                        <li data-menu=""><a class="dropdown-item" href="{{url("admin/blogs")}}" data-toggle="dropdown">افزودن مطالب</a>
+                        </li>
+                        
                     </div>
                 </ul>
             </li>
@@ -653,7 +642,13 @@
 <script type="text/javascript" src="{{url("/component")}}/date_picker/js/jquery-1.10.1.min.js"></script>
 <script type="text/javascript" src="{{url("/component")}}/date_picker/js/persianDatepicker.min.js"></script>
 
-
+<script>
+    $("#birthdate").persianDatepicker({
+        cellWidth:45,
+        cellHeight:40,
+        fontSize:14,
+    });
+</script>
 
 @yield('footer')
 </body>

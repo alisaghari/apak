@@ -76,7 +76,7 @@
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <label for="validationTooltip02">تاریخ تولد</label>
-                                        <input type="text" name="birthdate" class="form-control position-relative" id="validationTooltip02" placeholder="تاریخ تولد" value="@if(isset($user->birthdate)){{$user->birthdate}}@endif" required="">
+                                        <input type="text" name="birthdate" class="form-control position-relative" id="birthdate" placeholder="تاریخ تولد" value="@if(isset($user->birthdate)){{$user->birthdate}}@endif" required="">
                                         <div class="valid-tooltip">
                                            لطفا تاریخ تولد را وارد نمایید
                                         </div>
