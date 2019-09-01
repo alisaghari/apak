@@ -69,6 +69,14 @@ Route::group(['prefix' => 'admin', 'middleware' => [\App\Http\Middleware\CheckAd
     Route::post('auction/gallery/add',"auctionController@auction_gallery_add");
     Route::get('auction/gallery/delete/{id}',"auctionController@auction_gallery_delete");
     Route::post('auction/update',"auctionController@auction_update");
+
+//Products
+    /*nikmehr*/Route::get('product_category','ProductCategoryController@product_categories');
+    /*nikmehr*/Route::post('product_category/add',"ProductCategoryController@product_categories_add");
+    /*nikmehr*/Route::get('product_category/update/{id}',"ProductCategoryController@product_categories_update_view");
+    /*nikmehr*/Route::post('product_category/update',"ProductCategoryController@product_categories_update");
+    /*nikmehr*/Route::get('product_category/delete/{id}',"ProductCategoryController@product_categories_delete");
+
 });
 Auth::routes();
 //verify

@@ -46,7 +46,8 @@
     <link rel="stylesheet" type="text/css" href="{{url("/adminui")}}/app-assets/css-rtl/plugins/forms/checkboxes-radios.min.css">
     <link rel="stylesheet" type="text/css" href="{{url("/adminui")}}/app-assets/vendors/css/forms/icheck/icheck.css">
     <link rel="stylesheet" type="text/css" href="{{url("/adminui")}}/app-assets/vendors/css/forms/icheck/custom.css">
-
+    <!--jquey persian date picker-->
+    <link type="text/css" rel="stylesheet" href="{{url("/component")}}/date_picker/css/persianDatepicker-default.css" />
 </head>
 <!-- END: Head-->
 
@@ -719,7 +720,14 @@
 <!-- BEGIN: Page JS-->
 <script src="{{url("/adminui")}}/app-assets/js/scripts/pages/dashboard-analytics.min.js" type="text/javascript"></script>
 <!-- END: Page JS-->
+<!-- jquey persian date picker-->
+<script type="text/javascript" src="{{url("/component")}}/jquery.min.js"></script>
+<script type="text/javascript" src="{{url("/component")}}/date_picker/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="{{url("/component")}}/date_picker/js/persianDatepicker.min.js"></script>
 
+
+
+@yield('footer')
 </body>
 <!-- END: Body-->
 </html>
