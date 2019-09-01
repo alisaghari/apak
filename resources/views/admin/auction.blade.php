@@ -81,10 +81,10 @@
                                     </div>
                                     <div class="col-md-3 mb-3">
                                         @if(!isset($auction))
-                                            <button class="btn btn-primary" type="submit" style="margin-top: 0px ; width: 100%">افزودن مزایده</button>
+                                            <button class="btn btn-primary" type="submit" style="margin-top: 25px ; width: 100%">افزودن مزایده</button>
                                         @else
-                                            <button class="btn btn-success" type="submit">ویرایش مزایده</button>
-                                            <a class="btn btn-primary" href="{{url("admin/auction")}}">لغو ویرایش</a>
+                                            <button class="btn btn-success" type="submit" style="margin-top: 25px">ویرایش مزایده</button>
+                                            <a class="btn btn-primary" href="{{url("admin/auction")}}" style="margin-top: 25px ">لغو ویرایش</a>
                                         @endif
                                     </div>
 

@@ -12,3 +12,6 @@ npm-debug.log
 yarn-error.log
 .idea/workspace.xml
 resources/views/admin/master.blade.php
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/workspace.xml

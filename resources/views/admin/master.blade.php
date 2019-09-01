@@ -382,80 +382,8 @@
                     </div>
                 </ul>
             </li>
-            <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i class="ft-aperture"></i><span>مزایده</span></a>
-                <ul class="dropdown-menu">
-                    <div class="arrow_box">
-                        <li class="dropdown dropdown-submenu" data-menu="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">محتوا</a>
-                            <ul class="dropdown-menu">
-                                <div class="arrow_box">
-                                    <li data-menu=""><a class="dropdown-item" href="content-grid.html" data-toggle="dropdown">شبکه</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="content-typography.html" data-toggle="dropdown">تایپوگرافی</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="content-text-utilities.html" data-toggle="dropdown">ابزارهای متن</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="content-syntax-highlighter.html" data-toggle="dropdown">برجسته کننده</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="content-helper-classes.html" data-toggle="dropdown">کلاس امدادگر</a>
-                                    </li>
-                                </div>
-                            </ul>
-                        </li>
-                        <li class="dropdown dropdown-submenu" data-menu="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">پالت رنگ</a>
-                            <ul class="dropdown-menu">
-                                <div class="arrow_box">
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-primary.html" data-toggle="dropdown">پالت اولیه</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-danger.html" data-toggle="dropdown">پالت خطر</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-success.html" data-toggle="dropdown">پالت موفقیت</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-warning.html" data-toggle="dropdown">پالت هشدار</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-info.html" data-toggle="dropdown">پالت اطلاعات</a>
-                                    </li>
-                                    <li class="dropdown-divider"></li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-red.html" data-toggle="dropdown">پالت قرمز</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-pink.html" data-toggle="dropdown">پالت صورتی</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-purple.html" data-toggle="dropdown">پالت بنفش</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-blue.html" data-toggle="dropdown">پالت آبی</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-cyan.html" data-toggle="dropdown">پالت صورتی</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-teal.html" data-toggle="dropdown">پالت طال</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-yellow.html" data-toggle="dropdown">پالت زرد</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-amber.html" data-toggle="dropdown">پالت آمبر</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="color-palette-blue-grey.html" data-toggle="dropdown">پالت آبی خاکستری</a>
-                                    </li>
-                                </div>
-                            </ul>
-                        </li>
-                        <li data-menu=""><a class="dropdown-item" href="card-bootstrap.html" data-toggle="dropdown">کارت های بوت استرپ</a>
-                        </li>
-                        <li data-menu=""><a class="dropdown-item" href="card-advanced.html" data-toggle="dropdown">کارت های پیشرفته</a>
-                        </li>
-                        <li class="dropdown dropdown-submenu" data-menu="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">آیکون ها</a>
-                            <ul class="dropdown-menu">
-                                <div class="arrow_box">
-                                    <li data-menu=""><a class="dropdown-item" href="icons-feather.html" data-toggle="dropdown">پر</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="icons-line-awesome.html" data-toggle="dropdown">خط عالی</a>
-                                    </li>
-                                    <li data-menu=""><a class="dropdown-item" href="icons-simple-line-icons.html" data-toggle="dropdown">آیکون خط ساده</a>
-                                    </li>
-                                </div>
-                            </ul>
-                        </li>
-                        <li data-menu=""><a class="dropdown-item" href="animation.html" data-toggle="dropdown">انیمیشن</a>
-                        </li>
-                    </div>
-                </ul>
+            <li class="nav-item" ><a class="nav-link" href="{{url("admin/auctions")}}" ><i class="ft-aperture"></i><span>مزایده</span></a>
+
             </li>
             <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"><i class="ft-box"></i><span>تسویه</span></a>
                 <ul class="dropdown-menu">
